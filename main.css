@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* border: 10px solid black; */
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+}
+
+
+/* select by tag  */
+main {
+    max-width: 1024px;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+/* navbar styling  */
+nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 1rem 0;
+}
+
+nav h1 {
+    color: #ec7f13;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #ec7f13;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.img {
+    background-image: url("https://img.freepik.com/premium-photo/pair-yellow-shoes-orange-background-generative-ai_946522-17367.jpg?ga=GA1.1.1957574997.1709135646&semt=ais_hybrid");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border: 4px;
+    border-color: black;
+    height: 80vh;
+    text-align: center;
+}
+
+/* primary color: 10%
+secondary-color: 30
+###-color: 60 */
+
+/* https://colorhunt.co/ */
+
+/* primay-color: #ec7f13  */
+
+/* section vise chlna  */
+/* Free pics: 
+https://unsplash.com/
+https://www.pexels.com/
+https://pixabay.com/
+*/
+
+/* for box shadow goto : https://getcssscan.com/css-box-shadow-examples  */
+
+
+/* reset CSS  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variables  */
+:root {
+    --primary: #ec7f13;
+    --primary-text: rgb(237, 237, 237);
+    --primary-text-dark: black;
+    --paragraph-text-dark: black;
+    --paragraph-text: rgb(210, 210, 210);
+}
+
+.primary-text {
+    color: var(--primary-text);
+    font-size: 2.5rem;
+}
+
+.paragraph-text {
+    color: var(--paragraph-text);
+    font-size: 1.3rem;
+}
+
+.primary-text-dark {
+    color: var(--primary-text-dark);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.paragraph-text-dark {
+    color: var(--paragraph-text-dark);
+    font-size: 1.3rem;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+
+.sections-gap {
+    margin-top: 7rem;
+}
+
+/* temporary CSS */
+.border-1 {
+    border: 2px solid red;
+}
+
+.border-2 {
+    border: 2px solid green;
+}
+
+body {
+    /* border: 10px solid black; */
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+}
+
+
+/* select by tag  */
+main {
+    max-width: 1024px;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+/* navbar styling  */
+nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 1rem 0;
+    transition-delay: 5s;
+}
+
+nav h1 {
+    color: var(--primary);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #ec7f13;
+    font-weight: 500;
+    text-decoration: underline;
+    transition-delay: 0.3s;
+
+}
+
+nav ul li a:active {
+    color: #e21414;
+}
+
+
+
+/* section 1 styling  */
+.section-1 {
+    /* background-image: url('C:/Users/Dell/Desktop/Lectures/PROJECT/img/Clippy — CSS clip-path maker.html');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;  */
+    background: url("https://img.freepik.com/premium-photo/pair-yellow-shoes-orange-background-generative-ai_946522-17367.jpg?ga=GA1.1.1957574997.1709135646&semt=ais_hybrid") center/cover no-repeat;
+    height: 550px;
+    display: flex;
+    position: relative;
+}
+
+.section-1 .overlay {
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.section-1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1-text {
+    width: 80%;
+    text-align: center;
+    z-index: 2;
+    color: var(--primary-text);
+    /* font-size: 2rem; */
+}
+
+
+
+
+/* section-2 styling  */
+.section-2 h2 {}
+
+.top-products-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.top-product {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.product-top img {
+    width: 100%;
+}
+
+.product-bottom {
+    padding: 1rem;
+}
+
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.top-shoes {
+    text-align: center;
+    max-width: 200px;
+}
+
+.top-shoes img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.top-shoes h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: black;
+}
+
+.top-shoes p {
+    font-size: 16px;
+    color: black;
+    margin: 5px 0;
+}
+
+
+.sponsor-container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.sponsor {
+    text-align: center;
+    max-width: 200px;
+}
+
+.sponsor img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.shop-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 23%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.product:hover {
+    transform: translate(50px, 100px);
+    /* transform: rotate(20deg);
+    transform: rotate(-20deg);
+    transform: scale(2, 3);
+    transform: scale(0.5, 0.5);
+    transform: skewX(20deg);
+    transform: skewY(20deg);
+    transform: rotateX(150deg);
+    transform: rotateY(150deg);
+    transform: rotateZ(90deg); */
+}
+r
+.product img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.product h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #f00;
+    margin-bottom: 10px;
+}
+
+.product p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* main{
+    background-image: url("img/circle-scatter-haikei (1).svg");
+    background-image: url("img/orange-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+/* Basic styling for the Contact Us page */
+
+.contact-section {
+  
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-weight: 500;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+
+.custom-shape-divider-bottom-1730199713 .shape-fill {
+    fill: #947099;
+}
+
+.custom-shape-divider-bottom-1730349755 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1730349755 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1730349755 .shape-fill {
+    fill: #F17318;
+}
+
+/* From Uiverse.io by gagan-gv */
+.btn {
+    width: 150px;
+    height: 90px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    background: #040f16;
+    color: #f5f5f5;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+.btn:hover {
+    box-shadow: 0 0 20px 0px #2e2e2e3a;
+}
+
+.btn .icon {
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+
+}
+
+.btn .text {
+    transform: translateX(55px);
+}
+
+.btn:hover .icon {
+    width: 175px;
+}
+
+.btn:hover .text {
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active .icon {
+    transform: scale(0.85);
+}
+
+
+
+/* formcss */
+/* From Uiverse.io by nathann09 */ 
+.form {
+    background-color: #fff;
+    display: block;
+    padding: 1rem;
+    max-width: 350px;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .input-container input, .form button {
+    outline: none;
+    border: 1px solid #e5e7eb;
+    margin: 8px 0;
+  }
+  
+  .input-container input {
+    background-color: #fff;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    width: 300px;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .submit {
+    display: block;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: #4F46E5;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .signup-link {
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+  
+  .signup-link a {
+    text-decoration: underline;
+  }
