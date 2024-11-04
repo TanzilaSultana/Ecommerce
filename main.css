@@ -318,6 +318,7 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .product {
@@ -343,7 +344,7 @@ h1 {
     transform: rotateY(150deg);
     transform: rotateZ(90deg); */
 }
-r
+
 .product img {
     width: 100%;
     border-bottom: 1px solid #ddd;
